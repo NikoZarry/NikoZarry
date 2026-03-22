@@ -1,39 +1,44 @@
 <h1 align="center">Hi, I'm Hidekel (Niko) Irizarry 👋</h1>
 
 <p align="center">
-  Mechanical Engineering student at UCF — self-studying machine learning on the side.<br>
-  Building toward the intersection of engineering and AI: predictive maintenance, physics-informed neural networks, and simulation optimization.
+  Mechanical Engineering student at UCF &mdash; building things that simulate the physical world.<br>
+  Self-studying machine learning on the side, working toward the intersection of engineering and AI.
 </p>
 
 <p align="center">
   <a href="mailto:nikozarry@gmail.com">
     <img src="https://img.shields.io/badge/Email-nikozarry%40gmail.com-blue?style=flat&logo=gmail&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/University-UCF-black?style=flat&logo=university&logoColor=gold" />
-  <img src="https://img.shields.io/badge/Degree-Mechanical%20Engineering-orange?style=flat" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/UCF-Mechanical%20Engineering-black?style=flat&logo=university&logoColor=gold" />
 </p>
 
 ---
 
-## About Me
+## Featured Project
 
-- 🎓 B.S. Mechanical Engineering @ University of Central Florida
-- 🤖 Self-studying ML with *Hands-On Machine Learning* (Aurélien Géron, 3rd ed.)
-- 🔭 Goal: apply ML to real engineering problems — PINNs, predictive maintenance, FEA optimization
-- 🐍 Python is my strongest language; working through NumPy, Pandas, Scikit-learn
-- ⚙️ I like building things that simulate the physical world
+### [2D Truss Solver](https://github.com/NikoZarry/2d-truss-solver) &nbsp;·&nbsp; [Live Demo](https://nikozarry.github.io/2d-truss-solver/)
+
+A complete finite element solver for planar truss structures, built from scratch in both Python and JavaScript. Uses the **Direct Stiffness Method** — the same algorithm behind ANSYS and Abaqus.
+
+![Truss Solver Preview](https://raw.githubusercontent.com/NikoZarry/2d-truss-solver/main/truss_preview.png)
+
+Given any truss (nodes, members, supports, loads), it assembles the global stiffness matrix **K**, solves **K·u = F** for displacements, computes reaction forces and axial member forces, and renders a color-coded visualization (green = tension, red = compression).
+
+`Python` `NumPy` `Matplotlib` `JavaScript` `FEM` `Structural Analysis`
 
 ---
 
-## Projects
+## All Projects
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [1D Rocket Simulator](https://github.com/NikoZarry/1d-rocket-simulation) | Physics-based rocket flight simulation with optional drag and matplotlib plots | Python, NumPy |
-| [Physics Ball Simulation](https://github.com/NikoZarry/physics-ball-simulation) · [**Live**](https://nikozarry.github.io/physics-ball-simulation/) | Interactive browser sim with real-time energy/momentum diagnostics | HTML, CSS, JS |
-| [Linear Algebra Calculator](https://github.com/NikoZarry/linear-algebra-calculator) | CLI vector calculator with π-notation output | Python, NumPy |
-| [Movie Data Analysis](https://github.com/NikoZarry/movie-data-analysis) | Box office EDA with inflation-adjusted ROI and interactive Plotly charts | Python, Pandas, Plotly |
-| [Machine Learning](https://github.com/NikoZarry/machine-learning) | Notes and notebooks from my ML self-study | Python, Jupyter, Scikit-learn |
+| [2D Truss Solver](https://github.com/NikoZarry/2d-truss-solver) · [Live](https://nikozarry.github.io/2d-truss-solver/) | FEM solver using the Direct Stiffness Method — Python + interactive web tool | Python, NumPy, JS |
+| [1D Rocket Simulator](https://github.com/NikoZarry/1d-rocket-simulation) | Physics-based rocket flight sim with drag, variable mass, and matplotlib plots | Python, NumPy |
+| [Physics Ball Simulation](https://github.com/NikoZarry/physics-ball-simulation) · [Live](https://nikozarry.github.io/physics-ball-simulation/) | Interactive browser simulation with real-time energy/momentum diagnostics | HTML, CSS, JS |
+| [Linear Algebra Calculator](https://github.com/NikoZarry/linear-algebra-calculator) | CLI vector calculator with π-notation output for dot/cross products | Python, NumPy |
+| [Movie Data Analysis](https://github.com/NikoZarry/movie-data-analysis) | Box office EDA with inflation-adjusted ROI and Plotly visualizations | Python, Pandas, Plotly |
+| [Machine Learning](https://github.com/NikoZarry/machine-learning) | Self-study notebooks from Hands-On Machine Learning (Géron, 3rd ed.) | Python, Jupyter, Scikit-learn |
 
 ---
 
@@ -63,7 +68,6 @@
   <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code" />
 </p>
 
 ---
